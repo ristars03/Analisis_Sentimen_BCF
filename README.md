@@ -13,24 +13,6 @@ Sistem ini dikembangkan untuk mengklasifikasikan sentimen dari penilaian stakeho
 
 ---
 
-## 📂 Struktur Repositori
-
-```
-📦 Analisis_Sentimen_BCF
-├── Analisis_Sentimen_BCF.ipynb     # Notebook utama (training, evaluasi, demo)
-├── README.md                       # Dokumentasi proyek
-├── requirements.txt               # Daftar dependensi
-├── model/
-│   ├── model_sentimen_bilstm.h5   # (opsional) file model terlatih
-│   └── tokenizer.pickle           # (opsional) tokenizer hasil training
-├── data/
-│   └── example_input.csv          # (opsional) contoh input untuk demo
-├── fasttext/
-│   └── cc.id.300.vec              # (disarankan, tidak disertakan karena besar)
-```
-
----
-
 ## ▶️ Cara Menjalankan Proyek Ini
 
 1. **Clone repo ini** atau buka `Analisis_Sentimen_BCF.ipynb` di Google Colab
